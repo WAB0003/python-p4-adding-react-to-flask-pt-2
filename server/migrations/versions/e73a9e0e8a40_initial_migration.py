@@ -1,8 +1,8 @@
-"""create table movies
+"""initial migration
 
-Revision ID: ad6df61696c5
-Revises: 744d7729193a
-Create Date: 2022-10-03 13:16:33.759266
+Revision ID: e73a9e0e8a40
+Revises: 
+Create Date: 2023-05-04 10:40:39.103488
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'ad6df61696c5'
-down_revision = '744d7729193a'
+revision = 'e73a9e0e8a40'
+down_revision = None
 branch_labels = None
 depends_on = None
 
